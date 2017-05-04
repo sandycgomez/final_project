@@ -1,17 +1,5 @@
 
 
-#slideshow > div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-}
-
-
-
-}
-
 .link:hover {
   color: #2ecc71;
   border-bottom: 2px dotted #2ecc71;
@@ -44,28 +32,6 @@
 .blue:hover {
   background-color: #F88379;
 }
-.green {
-  background-color: #A8516E;
-  box-shadow: 0px 5px 0px 0px #F88379;
-}
-
-.green:hover {
-  background-color:	#F88379;
-}
-.red {
-  background-color: #A8516E;
-  box-shadow: 0px 5px 0px 0px 	#F88379;
-}
-
-.red:hover {
-  background-color: #F88379;
-}
-
-
-
-
-
-
 
 
 
