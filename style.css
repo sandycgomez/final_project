@@ -1,4 +1,6 @@
-
+body {
+    background-color:#C4D8E2	;
+  }
 
 #slideshow > div {
     position: absolute;
@@ -82,12 +84,6 @@ html {
   width: 100vw;
   height: 100vh;
 }
-body {
-  background-color: #1fa2ed;
-  color: #fff;
-}
-
-
 .start-screen {
   display: flex;
   justify-content: center;
