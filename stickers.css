@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+  background-color: #FDD5B1;
+}
+#title {
+    text-align: center;
+    left: 460px;
+    top: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+}
+
+
+#StampcanvasID {
+    border-style: dashed;
+    border-width: 10px;
+  background-color: 	#EFDFBB;
+}
+
+
+#mary {
+    text-align: center;
+    left: 1100px;
+    bottom: 350px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+  color: black;
+}
+#view {
+  text-align: center;
+    left: 1100px;
+    bottom: 200px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+  color: black;
+}
+
+
+
+
+
+.link:hover {
+  color: #2ecc71;
+  border-bottom: 2px dotted #2ecc71;
+}
+
+
+
+
+.btn {
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color:	#A8516E;
+  box-shadow: 0px 5px 0px 0px #F88379;
+}
+.blue:hover {
+  background-color: #F88379;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  &:before, &:after {
+    box-sizing: inherit;
+  }
+}

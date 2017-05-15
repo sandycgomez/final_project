@@ -2,14 +2,6 @@ body {
     background-color:#C4D8E2	;
   }
 
-#slideshow > div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-}
-
 
 
 }
@@ -62,24 +54,15 @@ body {
 .red:hover {
   background-color: #F88379;
 }
-
-
-
-
-
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  &:before, &:after {
-    box-sizing: inherit;
-  }
+.yellow {
+  background-color: #A8516E;
+  box-shadow: 0px 5px 0px 0px 	#F88379;
 }
+
+.yellow:hover {
+  background-color: #F88379;
+}
+
 html {
   width: 100vw;
   height: 100vh;
@@ -97,7 +80,7 @@ html {
 }
 .loading__element {
   font: normal  100 2rem/1 Roboto;
-  color: white;
+  color: black;
   letter-spacing: .5em;
 }
 [class*="el"] {

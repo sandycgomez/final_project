@@ -1,8 +1,16 @@
-body {
-    background-color: #FBCCE7;
-    text-align: center; 
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+#title {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
 }
 
+body {
+    background-color: #FBCCE7;
+    text-align: center;
+}
 
 
 
